@@ -11,6 +11,6 @@ This particular sensor module was created to be a part of an automatic sorter, b
 
 ![alt text](https://github.com/MozillaMudkip/RGB-Color-Sensor-Module-OPT4048DTSR-/blob/main/ColorSensorPCB.png?raw=true)
 
-The OPT4048DTSR and and LED system takes in just a 3.3V input for power. Please note the the sensor has a minimum open air voltage range from 1.6V to 3.6V. 3.3V proved to be a convenient value for us as we use a 3.3 voltage source in numerous other portions of out project. For more information, please refer to the OPT4048DTSR datasheet which gives more specific allowances and typical setup and application.
+The OPT4048DTSR and and LED system takes in just a 3.3V input for power. Please note that the sensor has a minimum open air voltage range from 1.6V to 3.6V. 3.3V proved to be a convenient value for us as we use a 3.3 voltage source in numerous other portions of out project. For more information, please refer to the OPT4048DTSR datasheet which gives more specific allowances and typical setup and application.
 
 https://www.ti.com/lit/ds/symlink/opt4048.pdf?ts=1698653299594&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPT4048 
