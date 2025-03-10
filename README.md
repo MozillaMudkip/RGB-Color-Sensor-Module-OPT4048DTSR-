@@ -3,7 +3,7 @@ Schematics, PCB and Code
 
 This repository contains a collection of files that detail the creation of a RGB Color Sensor.
 
-This color sensor module utilizes an OPT4048DTSR from Texas Instruments. This sensor is a High Speed High Precision Tristimulus XYZ Color Sensor which is able to perform high precision color to light digital conversion over an I2C interface. It is able to measure 4 channels, 3 of which match and recognize the CIE tristimulus spectra with the 4th being a wide band spectral responce. This sensor is paired with an LTW-C191TS5 from Lite-On to provide sufficient ambient white light so the OPT4048DTSR can measure color values from reflected light of the object to be sorted. This schematic and PCB was created in Altium Designer.
+This color sensor module utilizes an OPT4048DTSR from Texas Instruments. This sensor is a high speed, high precision tristimulus XYZ color sensor which is able to perform high precision color to light digital conversion over an I2C interface. It is able to measure 4 channels, 3 of which match and recognize the CIE tristimulus spectra with the 4th being a wide band spectral responce. This sensor is paired with an LTW-C191TS5 from Lite-On to provide sufficient ambient white light so the OPT4048DTSR can measure color values from reflected light of the object to be sorted. This schematic and PCB was created in Altium Designer.
 
 ![alt text](https://github.com/MozillaMudkip/RGB-Color-Sensor-Module-OPT4048DTSR-/blob/main/ColorSensorSchematicImage.png?raw=true)
 
