@@ -1,9 +1,9 @@
 /**
  * @file main.h
- * @author 
+ * @author Ben D
  * @brief 
  * @version 0.1
- * @date 2023-08-15
+ * @date 2025-03-17
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -38,9 +38,8 @@
  #include "source/app_hw/i2c.h"
  #include "source/app_hw/spi.h"
  #include "source/app_hw/task_console.h"
- //#include "source/app_hw/task_blink.h"
  #include "source/app_hw/task_io_expander.h"
- //#include "source/app_hw/task_dc_control.h" 
+ //include color sensor task
  #include "source/app_hw/task_color_sensor.h"
  
  #endif
