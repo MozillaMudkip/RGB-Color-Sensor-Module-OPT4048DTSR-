@@ -1,8 +1,6 @@
 #include "main.h"
 #include "i2c.h"
 #include "source/app_hw/task_console.h"
-//#include "source/app_hw/task_blink.h"
-//#include "source/app_hw/task_dc_control.h"
 #include "source/app_hw/task_color_sensor.h"
 
 int main(void) {
@@ -14,10 +12,9 @@ int main(void) {
     i2c_init();
     /* Initialize FreeRTOS tasks */
     task_console_init();
-    //task_blink_init();
-    //task_dc_control_init();
+    /* Initialize color sensor task */
     task_color_sensor_init();  
-
+    /* Start scheduler to operate task functionality */ 
     vTaskStartScheduler();
 
     for (;;) { }
